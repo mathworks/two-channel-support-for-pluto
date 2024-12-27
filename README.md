@@ -11,10 +11,12 @@ This repo provides the necessary files to enable dual-channel operation of the A
   
 ## Contents
 - RadioConfigurationManager.m
-- configureTwoChannelPlutoRadio.m
 - ReceiveTwoChannelPhaseSynchronizedData.mlx
-- tx.p
+- configureTwoChannelPlutoRadio.m
 - rx.p
+- tx.p
+- Security.md
+- license.txt
 
 ## Install Instructions
 - Install [Communications Toolbox Support Package for ADALM-PLUTO Radio ](https://www.mathworks.com/hardware-support/adalm-pluto-radio.html)
