@@ -24,9 +24,10 @@ This repo provides the necessary files to enable dual-channel operation of the A
   ```matlab:Code
   spkgroot = matlabshared.supportpkg.getSupportPackageRoot();
   ```
-- Dowload RadioConfigurationManager.m file and place in   spkgroot/toolbox/shared/sdr/sdrplug/plutoradio_hspdef/plutoradio_hspdef/+plutoradio/+internal
-- Download configureTwoChannelPlutoRadio.m and ReceiveTwoChannelPhaseSynchronizedData.mlx files and place in spkgroot/toolbox/shared/sdr/sdrplug/plutoradio_hspdef/plutoradio_hspdef
-- Download tx.p and rx.p files and place in spkgroot/toolbox/shared/sdr/sdrplug/sdrplugins/plutoradio/+comm/+plutoradio  
+- cd to spkgroot path
+- Dowload RadioConfigurationManager.m file and place in 'toolbox/shared/sdr/sdrplug/plutoradio_hspdef/plutoradio_hspdef/+plutoradio/+internal'
+- Download configureTwoChannelPlutoRadio.m and ReceiveTwoChannelPhaseSynchronizedData.mlx files and place in 'toolbox/shared/sdr/sdrplug/plutoradio_hspdef/plutoradio_hspdef'
+- Download tx.p and rx.p files and place in 'toolbox/shared/sdr/sdrplug/sdrplugins/plutoradio/+comm/+plutoradio' 
   
 ## Agenda
 - Connect the ADALM-PLUTO Radio: Attach the radio to your host computer and run the Hardware Setup App from the Communications Toolbox Support Package for ADALM-PLUTO Radio.
